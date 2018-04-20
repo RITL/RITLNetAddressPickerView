@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0CBF4C212F9C5105D0C74233 /* libPods-RITLNetAddressPickerView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D28A6DCB061449588F125E9D /* libPods-RITLNetAddressPickerView.a */; };
 		DB9F79BC2089DFE900485B33 /* RITLNetAddressAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9F79BB2089DFE900485B33 /* RITLNetAddressAssets.xcassets */; };
+		DB9F79C0208A008000485B33 /* RITLNetAddressPickerView.gif in Resources */ = {isa = PBXBuildFile; fileRef = DB9F79BF208A008000485B33 /* RITLNetAddressPickerView.gif */; };
 		DBE38F2B2089D931004D91C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE38F2A2089D931004D91C8 /* AppDelegate.m */; };
 		DBE38F2E2089D931004D91C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE38F2D2089D931004D91C8 /* ViewController.m */; };
 		DBE38F312089D931004D91C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE38F2F2089D931004D91C8 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 		AEF3F853FBBDDF9E08AF63E2 /* Pods-RITLNetAddressPickerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RITLNetAddressPickerView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RITLNetAddressPickerView/Pods-RITLNetAddressPickerView.debug.xcconfig"; sourceTree = "<group>"; };
 		D28A6DCB061449588F125E9D /* libPods-RITLNetAddressPickerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RITLNetAddressPickerView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9F79BB2089DFE900485B33 /* RITLNetAddressAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = RITLNetAddressAssets.xcassets; sourceTree = "<group>"; };
+		DB9F79BF208A008000485B33 /* RITLNetAddressPickerView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = RITLNetAddressPickerView.gif; sourceTree = "<group>"; };
 		DBE38F262089D930004D91C8 /* RITLNetAddressPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RITLNetAddressPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBE38F292089D931004D91C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DBE38F2A2089D931004D91C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		DBE38F3F2089DAB8004D91C8 /* RITLAddressPickerView */ = {
 			isa = PBXGroup;
 			children = (
+				DB9F79BF208A008000485B33 /* RITLNetAddressPickerView.gif */,
 				DBE38F402089DAB8004D91C8 /* RITLNetAddressPickerCell.h */,
 				DBE38F422089DAB8004D91C8 /* RITLNetAddressPickerCell.m */,
 				DBE38F412089DAB8004D91C8 /* RITLNetAddressPickerView.h */,
@@ -176,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB9F79C0208A008000485B33 /* RITLNetAddressPickerView.gif in Resources */,
 				DB9F79BC2089DFE900485B33 /* RITLNetAddressAssets.xcassets in Resources */,
 				DBE38F362089D932004D91C8 /* LaunchScreen.storyboard in Resources */,
 				DBE38F332089D932004D91C8 /* Assets.xcassets in Resources */,
