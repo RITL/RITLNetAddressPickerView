@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "RITLNetAddressPickerView.h"
 
-@interface ViewController ()<RITLNetAddressPickerViewDelegate>
+@interface ViewController ()<RITLNetAddressPickerViewDelegate,RITLNetAddressPickerViewDataSource>
 
 @property (nonatomic, strong) RITLNetAddressPickerView *addressPickerView;
 
@@ -23,10 +23,13 @@
     
     self.addressPickerView = RITLNetAddressPickerView.new;
     self.addressPickerView.delegate = self;
+    self.addressPickerView.dataSource = self;
     self.addressPickerView.provinceUrl = @"http://yun.qingnongwan.com/index.php?s=/project/sheng";
     self.addressPickerView.cityUrl = @"http://yun.qingnongwan.com/index.php?s=/project/shi";
     
 }
+
+#pragma mark - <RITLNetAddressPickerViewDelegate>
 
 - (void)addressPickerView:(RITLNetAddressPickerView *)pickerView
                  province:(nullable id<RITLNetAddressPickerItem>)province
@@ -35,6 +38,26 @@
 {
     NSLog(@"province = %@,city = %@,county = %@",province.title,city.title,county.title);
 }
+
+- (void)addressPickerViewWillDismiss:(RITLNetAddressPickerView *)pickerView
+{
+    NSLog(@"%@",NSStringFromSelector(_cmd));
+}
+
+#pragma mark - <RITLNetAddressPickerViewDataSource>
+
+/// 根据网络请求回来的数据，自行进行处理返回数据源格式的数据源方法
+//- (NSArray <id<RITLNetAddressPickerItem>>*)addressPickerView:(RITLNetAddressPickerView *)pickerView response:(id)responseObject
+//{
+//
+//}
+
+
+/// 网络请求出现问题的回调
+//- (void)addressPickerView:(RITLNetAddressPickerView *)pickerView error:(NSError *)error
+//{
+//
+//}
 
 
 

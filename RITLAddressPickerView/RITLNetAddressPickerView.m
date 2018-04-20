@@ -610,7 +610,7 @@
     } completion:^(BOOL finished) {
         
         //重置
-        self.provinceButton.text = @"请选择";
+        self.provinceButton.text = self.cityButton.text = self.countyButton.text =@"请选择";
         self.cityButton.hidden = self.countyButton.hidden = true;
         self.sel_province = self.sel_city = self.sel_county = nil;//清空数据
         self.provincesTableView.ritl_contentOffSetY = self.citiesTableView.ritl_contentOffSetY = self.countiesTableView.ritl_contentOffSetY = 0;
