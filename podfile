@@ -1,0 +1,10 @@
+platform :ios, '8.0'
+#use_frameworks!个需要用到它，比如reactiveCocoa
+
+target 'RITLNetAddressPickerView' do
+
+pod 'YYModel', '~> 1.0.4'
+pod 'Masonry', '~> 1.1.0'
+pod 'RITLKit', '~> 0.3.3'
+
+end

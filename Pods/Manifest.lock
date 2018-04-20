@@ -1,0 +1,49 @@
+PODS:
+  - Masonry (1.1.0)
+  - RITLKit (0.3.3):
+    - Masonry
+    - RITLKit/Category (= 0.3.3)
+    - RITLKit/ImagePicker (= 0.3.3)
+    - RITLKit/ScrollPageController (= 0.3.3)
+    - RITLKit/Utility (= 0.3.3)
+    - RITLKit/View (= 0.3.3)
+    - RITLKit/Web (= 0.3.3)
+  - RITLKit/Category (0.3.3):
+    - Masonry
+    - RITLKit/Utility
+  - RITLKit/ImagePicker (0.3.3):
+    - Masonry
+  - RITLKit/ScrollPageController (0.3.3):
+    - Masonry
+    - RITLKit/Category
+    - RITLKit/ScrollPageController/LLSegmentBar (= 0.3.3)
+    - RITLKit/Utility
+  - RITLKit/ScrollPageController/LLSegmentBar (0.3.3):
+    - Masonry
+    - RITLKit/Category
+    - RITLKit/Utility
+  - RITLKit/Utility (0.3.3):
+    - Masonry
+  - RITLKit/View (0.3.3):
+    - Masonry
+    - RITLKit/Category
+    - RITLKit/Utility
+  - RITLKit/Web (0.3.3):
+    - Masonry
+    - RITLKit/Category
+    - RITLKit/Utility
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - Masonry (~> 1.1.0)
+  - RITLKit (~> 0.3.3)
+  - YYModel (~> 1.0.4)
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  RITLKit: e4c2009493d0e14361589f69afbffdfa76a04be3
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: bdad1ec48ca5eac13e5f2c87c1c0b4a7f8f20ac5
+
+COCOAPODS: 1.4.0

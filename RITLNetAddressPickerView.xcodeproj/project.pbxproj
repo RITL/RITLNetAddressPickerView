@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CBF4C212F9C5105D0C74233 /* libPods-RITLNetAddressPickerView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D28A6DCB061449588F125E9D /* libPods-RITLNetAddressPickerView.a */; };
+		DB9F79BC2089DFE900485B33 /* RITLNetAddressAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9F79BB2089DFE900485B33 /* RITLNetAddressAssets.xcassets */; };
 		DBE38F2B2089D931004D91C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE38F2A2089D931004D91C8 /* AppDelegate.m */; };
 		DBE38F2E2089D931004D91C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE38F2D2089D931004D91C8 /* ViewController.m */; };
 		DBE38F312089D931004D91C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE38F2F2089D931004D91C8 /* Main.storyboard */; };
 		DBE38F332089D932004D91C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBE38F322089D932004D91C8 /* Assets.xcassets */; };
 		DBE38F362089D932004D91C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE38F342089D932004D91C8 /* LaunchScreen.storyboard */; };
 		DBE38F392089D932004D91C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE38F382089D932004D91C8 /* main.m */; };
+		DBE38F442089DAB9004D91C8 /* RITLNetAddressPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE38F422089DAB8004D91C8 /* RITLNetAddressPickerCell.m */; };
+		DBE38F452089DAB9004D91C8 /* RITLNetAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE38F432089DAB9004D91C8 /* RITLNetAddressPickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		93D0DBB4130F400E2D043002 /* Pods-RITLNetAddressPickerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RITLNetAddressPickerView.release.xcconfig"; path = "Pods/Target Support Files/Pods-RITLNetAddressPickerView/Pods-RITLNetAddressPickerView.release.xcconfig"; sourceTree = "<group>"; };
+		AEF3F853FBBDDF9E08AF63E2 /* Pods-RITLNetAddressPickerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RITLNetAddressPickerView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RITLNetAddressPickerView/Pods-RITLNetAddressPickerView.debug.xcconfig"; sourceTree = "<group>"; };
+		D28A6DCB061449588F125E9D /* libPods-RITLNetAddressPickerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RITLNetAddressPickerView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9F79BB2089DFE900485B33 /* RITLNetAddressAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = RITLNetAddressAssets.xcassets; sourceTree = "<group>"; };
 		DBE38F262089D930004D91C8 /* RITLNetAddressPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RITLNetAddressPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBE38F292089D931004D91C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DBE38F2A2089D931004D91C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +34,10 @@
 		DBE38F352089D932004D91C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBE38F372089D932004D91C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBE38F382089D932004D91C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBE38F402089DAB8004D91C8 /* RITLNetAddressPickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITLNetAddressPickerCell.h; sourceTree = "<group>"; };
+		DBE38F412089DAB8004D91C8 /* RITLNetAddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITLNetAddressPickerView.h; sourceTree = "<group>"; };
+		DBE38F422089DAB8004D91C8 /* RITLNetAddressPickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITLNetAddressPickerCell.m; sourceTree = "<group>"; };
+		DBE38F432089DAB9004D91C8 /* RITLNetAddressPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITLNetAddressPickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +45,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CBF4C212F9C5105D0C74233 /* libPods-RITLNetAddressPickerView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D1D1A54EEA38FC5EA6DEA35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D28A6DCB061449588F125E9D /* libPods-RITLNetAddressPickerView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF27C94CDBB19358506FBFCF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEF3F853FBBDDF9E08AF63E2 /* Pods-RITLNetAddressPickerView.debug.xcconfig */,
+				93D0DBB4130F400E2D043002 /* Pods-RITLNetAddressPickerView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DBE38F1D2089D930004D91C8 = {
 			isa = PBXGroup;
 			children = (
+				DBE38F3F2089DAB8004D91C8 /* RITLAddressPickerView */,
 				DBE38F282089D930004D91C8 /* RITLNetAddressPickerView */,
 				DBE38F272089D930004D91C8 /* Products */,
+				CF27C94CDBB19358506FBFCF /* Pods */,
+				0D1D1A54EEA38FC5EA6DEA35 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +104,18 @@
 			path = RITLNetAddressPickerView;
 			sourceTree = "<group>";
 		};
+		DBE38F3F2089DAB8004D91C8 /* RITLAddressPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				DBE38F402089DAB8004D91C8 /* RITLNetAddressPickerCell.h */,
+				DBE38F422089DAB8004D91C8 /* RITLNetAddressPickerCell.m */,
+				DBE38F412089DAB8004D91C8 /* RITLNetAddressPickerView.h */,
+				DBE38F432089DAB9004D91C8 /* RITLNetAddressPickerView.m */,
+				DB9F79BB2089DFE900485B33 /* RITLNetAddressAssets.xcassets */,
+			);
+			path = RITLAddressPickerView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +123,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBE38F3C2089D932004D91C8 /* Build configuration list for PBXNativeTarget "RITLNetAddressPickerView" */;
 			buildPhases = (
+				5F5485493F142DC50AE7F4ED /* [CP] Check Pods Manifest.lock */,
 				DBE38F222089D930004D91C8 /* Sources */,
 				DBE38F232089D930004D91C8 /* Frameworks */,
 				DBE38F242089D930004D91C8 /* Resources */,
+				4DB93AF2BA6FB1A20B3F647C /* [CP] Embed Pods Frameworks */,
+				D002A6775ABB786431B4CAD6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,6 +176,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB9F79BC2089DFE900485B33 /* RITLNetAddressAssets.xcassets in Resources */,
 				DBE38F362089D932004D91C8 /* LaunchScreen.storyboard in Resources */,
 				DBE38F332089D932004D91C8 /* Assets.xcassets in Resources */,
 				DBE38F312089D931004D91C8 /* Main.storyboard in Resources */,
@@ -136,12 +185,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4DB93AF2BA6FB1A20B3F647C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RITLNetAddressPickerView/Pods-RITLNetAddressPickerView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F5485493F142DC50AE7F4ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RITLNetAddressPickerView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D002A6775ABB786431B4CAD6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RITLNetAddressPickerView/Pods-RITLNetAddressPickerView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DBE38F222089D930004D91C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBE38F452089DAB9004D91C8 /* RITLNetAddressPickerView.m in Sources */,
 				DBE38F2E2089D931004D91C8 /* ViewController.m in Sources */,
+				DBE38F442089DAB9004D91C8 /* RITLNetAddressPickerCell.m in Sources */,
 				DBE38F392089D932004D91C8 /* main.m in Sources */,
 				DBE38F2B2089D931004D91C8 /* AppDelegate.m in Sources */,
 			);
@@ -281,6 +383,7 @@
 		};
 		DBE38F3D2089D932004D91C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEF3F853FBBDDF9E08AF63E2 /* Pods-RITLNetAddressPickerView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +401,7 @@
 		};
 		DBE38F3E2089D932004D91C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93D0DBB4130F400E2D043002 /* Pods-RITLNetAddressPickerView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
