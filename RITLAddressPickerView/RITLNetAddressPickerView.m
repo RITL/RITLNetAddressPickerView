@@ -760,9 +760,9 @@
         dispatch_async(dispatch_get_main_queue(), ^{//主线程
             
             if ([self.dataSource respondsToSelector:@selector(addObserver:selector:name:object:)]) {
-                [self setValue:[self.dataSource addressPickerView:self response:data] forKey:dataKey]; return;
+                [self setValue:[self.dataSource addressPickerView:self response:data] forKey:dataKey];
             } else if (self.requestDataHandler) {
-                [self setValue:self.requestDataHandler(data) forKey:dataKey]; return;
+                [self setValue:self.requestDataHandler(data) forKey:dataKey];
             }else{//按照默认方式
                 
                 NSArray *jsonData = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
